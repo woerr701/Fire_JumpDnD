@@ -13,6 +13,15 @@ if(rescued == false)
 	/// @DnDArgument : "var" "rescued"
 	rescued = true;
 
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 2A0BF2D1
+	/// @DnDParent : 19259E7E
+	/// @DnDArgument : "value" "1"
+	/// @DnDArgument : "value_relative" "1"
+	/// @DnDArgument : "var" "score_rescue"
+	global.score_rescue += 1;
+
 	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
 	/// @DnDHash : 046EC775
@@ -27,6 +36,14 @@ if(rescued == false)
 	/// @DnDParent : 19259E7E
 	/// @DnDArgument : "force" "0.5"
 	gravity = 0.5;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+	/// @DnDVersion : 1
+	/// @DnDHash : 11278140
+	/// @DnDParent : 19259E7E
+	/// @DnDArgument : "value" "obj_player.depth - 10"
+	/// @DnDArgument : "instvar" "9"
+	depth = obj_player.depth - 10;
 
 	/// @DnDAction : YoYo Games.Switch.Switch
 	/// @DnDVersion : 1
