@@ -14,5 +14,8 @@ gravity = 1.4;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 23AC3E8D
+/// @DnDInput : 2
 /// @DnDArgument : "var" "score_rescue"
+/// @DnDArgument : "var_1" "score_height"
 global.score_rescue = 0;
+global.score_height = 0;
