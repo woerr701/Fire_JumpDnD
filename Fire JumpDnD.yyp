@@ -1,7 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},"order":8,},
     {"id":{"name":"obj_score_height","path":"objects/obj_score_height/obj_score_height.yy",},"order":6,},
     {"id":{"name":"obj_civilian","path":"objects/obj_civilian/obj_civilian.yy",},"order":4,},
+    {"id":{"name":"obj_fire","path":"objects/obj_fire/obj_fire.yy",},"order":8,},
     {"id":{"name":"obj_window","path":"objects/obj_window/obj_window.yy",},"order":1,},
     {"id":{"name":"spr_civilian_2","path":"sprites/spr_civilian_2/spr_civilian_2.yy",},"order":1,},
     {"id":{"name":"spr_civilian_0","path":"sprites/spr_civilian_0/spr_civilian_0.yy",},"order":2,},
