@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_fire",
-    "path": "sprites/spr_fire/spr_fire.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_move_parent",
-    "path": "objects/obj_move_parent/obj_move_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,10 +17,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_foam","path":"objects/obj_foam/obj_foam.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -34,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_fire",
+  "name": "obj_game",
   "tags": [],
   "resourceType": "GMObject",
 }
