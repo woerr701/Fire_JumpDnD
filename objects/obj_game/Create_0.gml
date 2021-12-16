@@ -60,3 +60,16 @@ part_type_size(fire, 0.7, 1.2, 0.04, 0);
 /// @DnDArgument : "type" "fire"
 /// @DnDArgument : "middle" "0.8"
 part_type_alpha3(fire, 1, 0.8, 1);
+
+/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 7BBA75C7
+audio_stop_all();
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 18447D51
+/// @DnDArgument : "soundid" "snd_game_music"
+/// @DnDArgument : "loop" "1"
+/// @DnDSaveInfo : "soundid" "snd_game_music"
+audio_play_sound(snd_game_music, 0, 1);
