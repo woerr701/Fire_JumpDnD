@@ -11,6 +11,6 @@ sprite_index = choose(spr_civilian_0, spr_civilian_1, spr_civilian_2);
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 55085A2B
-/// @DnDArgument : "expr" "fals"
+/// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "rescued"
 rescued = false;
