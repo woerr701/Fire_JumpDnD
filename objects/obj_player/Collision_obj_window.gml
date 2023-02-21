@@ -21,4 +21,23 @@ if(vspeed > 0)
 	/// @DnDSaveInfo : "spriteind" "spr_player_jump"
 	sprite_index = spr_player_jump;
 	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 4FAE27E3
+	/// @DnDParent : 1EBAD472
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos" "other.y"
+	/// @DnDArgument : "objectid" "obj_jump_effect"
+	/// @DnDArgument : "layer" ""Player""
+	/// @DnDSaveInfo : "objectid" "obj_jump_effect"
+	instance_create_layer(x + 0, other.y, "Player", obj_jump_effect);
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 51D16BF9
+	/// @DnDParent : 1EBAD472
+	/// @DnDArgument : "soundid" "snd_player_jump"
+	/// @DnDSaveInfo : "soundid" "snd_player_jump"
+	audio_play_sound(snd_player_jump, 0, 0);
 }
