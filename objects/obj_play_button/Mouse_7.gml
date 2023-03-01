@@ -15,5 +15,4 @@ alarm_set(0, 20);
 /// @DnDArgument : "var" ""
 /// @DnDArgument : "sequenceid" "seq_transition_start"
 /// @DnDArgument : "layer" ""Transition""
-/// @DnDSaveInfo : "sequenceid" "seq_transition_start"
 layer_sequence_create("Transition", 0, 0, seq_transition_start);

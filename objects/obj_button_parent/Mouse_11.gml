@@ -2,6 +2,5 @@
 /// @DnDVersion : 1
 /// @DnDHash : 6BC371AA
 /// @DnDArgument : "spriteind" "spr_button"
-/// @DnDSaveInfo : "spriteind" "spr_button"
 sprite_index = spr_button;
 image_index = 0;

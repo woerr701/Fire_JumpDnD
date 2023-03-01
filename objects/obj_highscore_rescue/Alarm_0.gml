@@ -26,10 +26,10 @@ if(global.score_rescue > global.highscore_rescue)
 	part_particles_create(obj_game.particle_system, x + 0, y + 0, obj_game.fire, 8);
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
-	/// @DnDVersion : 1
+	/// @DnDVersion : 1.1
 	/// @DnDHash : 6A07DFEB
 	/// @DnDParent : 44213143
 	/// @DnDArgument : "soundid" "snd_highscore"
 	/// @DnDSaveInfo : "soundid" "snd_highscore"
-	audio_play_sound(snd_highscore, 0, 0);
+	audio_play_sound(snd_highscore, 0, 0, 1.0, undefined, 1.0);
 }

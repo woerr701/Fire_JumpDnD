@@ -7,7 +7,6 @@ draw_self();
 /// @DnDVersion : 1
 /// @DnDHash : 14A688C1
 /// @DnDArgument : "font" "fnt_score"
-/// @DnDSaveInfo : "font" "fnt_score"
 draw_set_font(fnt_score);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment

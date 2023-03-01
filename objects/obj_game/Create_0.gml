@@ -67,12 +67,12 @@ part_type_alpha3(fire, 1, 0.8, 1);
 audio_stop_all();
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1
+/// @DnDVersion : 1.1
 /// @DnDHash : 18447D51
 /// @DnDArgument : "soundid" "snd_game_music"
 /// @DnDArgument : "loop" "1"
 /// @DnDSaveInfo : "soundid" "snd_game_music"
-audio_play_sound(snd_game_music, 0, 1);
+audio_play_sound(snd_game_music, 0, 1, 1.0, undefined, 1.0);
 
 /// @DnDAction : YoYo Games.Sequences.Sequence_Create
 /// @DnDVersion : 1

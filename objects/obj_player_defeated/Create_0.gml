@@ -11,11 +11,11 @@ vspeed = -15;
 gravity = 1;
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1
+/// @DnDVersion : 1.1
 /// @DnDHash : 5BC66295
 /// @DnDArgument : "soundid" "snd_player_defeat"
 /// @DnDSaveInfo : "soundid" "snd_player_defeat"
-audio_play_sound(snd_player_defeat, 0, 0);
+audio_play_sound(snd_player_defeat, 0, 0, 1.0, undefined, 1.0);
 
 /// @DnDAction : YoYo Games.Audio.Stop_Audio
 /// @DnDVersion : 1

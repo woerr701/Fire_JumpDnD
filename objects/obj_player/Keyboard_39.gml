@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 /// @DnDVersion : 1
 /// @DnDHash : 7DA7073C
-/// @DnDArgument : "value" "15"
+/// @DnDArgument : "value" "30"
 /// @DnDArgument : "value_relative" "1"
-x += 15;
+x += 30;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
