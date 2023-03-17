@@ -19,3 +19,14 @@ gravity = 1.4;
 /// @DnDArgument : "var_1" "score_height"
 global.score_rescue = 0;
 global.score_height = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3C41202E
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "expr_1" "false"
+/// @DnDArgument : "var" "speedboost"
+/// @DnDArgument : "var_1" "invincible"
+speedboost = false;
+invincible = false;
