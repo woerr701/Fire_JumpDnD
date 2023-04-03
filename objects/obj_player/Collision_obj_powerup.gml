@@ -12,15 +12,15 @@
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 5CC81B75
+	/// @DnDApplyTo : other
 	/// @DnDParent : 4107B890
-	instance_destroy();
+	with(other) instance_destroy();
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6C17EBCC
 /// @DnDArgument : "var" "powerup_type"
-/// @DnDArgument : "value" "5"
-if(powerup_type == 5)
+if(powerup_type == 0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -29,6 +29,13 @@ if(powerup_type == 5)
 	/// @DnDArgument : "expr" "true"
 	/// @DnDArgument : "var" "speedboost"
 	speedboost = true;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 68C22E10
+	/// @DnDParent : 6C17EBCC
+	/// @DnDArgument : "steps" "8 * 60"
+	alarm_set(0, 8 * 60);
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -41,6 +48,14 @@ else
 	/// @DnDHash : 6CB3A9F6
 	/// @DnDParent : 7AAD80AD
 	/// @DnDArgument : "expr" "true"
-	/// @DnDArgument : "var" "invinvible"
-	invinvible = true;
+	/// @DnDArgument : "var" "invincible"
+	invincible = true;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 77631BB1
+	/// @DnDParent : 7AAD80AD
+	/// @DnDArgument : "steps" "5 * 60"
+	/// @DnDArgument : "alarm" "1"
+	alarm_set(1, 5 * 60);
 }
