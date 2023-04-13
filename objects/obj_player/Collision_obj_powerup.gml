@@ -55,7 +55,7 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 77631BB1
 	/// @DnDParent : 7AAD80AD
-	/// @DnDArgument : "steps" "5 * 60"
+	/// @DnDArgument : "steps" "10 * 60"
 	/// @DnDArgument : "alarm" "1"
-	alarm_set(1, 5 * 60);
+	alarm_set(1, 10 * 60);
 }
