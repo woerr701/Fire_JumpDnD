@@ -10,16 +10,16 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 346,
-  "bbox_top": 0,
-  "bbox_bottom": 409,
+  "bbox_left": 25,
+  "bbox_right": 310,
+  "bbox_top": 62,
+  "bbox_bottom": 254,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "DynamicTexturePage": false,
   "width": 347,
-  "height": 447,
+  "height": 255,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -28,7 +28,7 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c12cd845-7849-4bcc-8295-c1d0b27efaac",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a873ca0e-9e06-4ad7-949e-2c6cfb5fce52",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -45,7 +45,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"04a32f08-8d42-4841-96e5-7759d255b1b5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c12cd845-7849-4bcc-8295-c1d0b27efaac","path":"sprites/spr_civilian_rescued_1/spr_civilian_rescued_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9eb22aea-49f1-43e6-8939-e3f314f93a8c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a873ca0e-9e06-4ad7-949e-2c6cfb5fce52","path":"sprites/spr_civilian_rescued_1/spr_civilian_rescued_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -59,7 +59,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 173,
-    "yorigin": 447,
+    "yorigin": 255,
     "eventToFunction": {},
     "eventStubScript": null,
   },
