@@ -46,6 +46,7 @@
     {"id":{"name":"spr_powerup","path":"sprites/spr_powerup/spr_powerup.yy",},"order":10,},
     {"id":{"name":"obj_jump_effect","path":"objects/obj_jump_effect/obj_jump_effect.yy",},"order":7,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_player_knife","path":"sprites/spr_player_knife/spr_player_knife.yy",},"order":5,},
     {"id":{"name":"snd_button","path":"sounds/snd_button/snd_button.yy",},"order":6,},
     {"id":{"name":"snd_menu_music","path":"sounds/snd_menu_music/snd_menu_music.yy",},"order":7,},
     {"id":{"name":"spr_foam","path":"sprites/spr_foam/spr_foam.yy",},"order":7,},
