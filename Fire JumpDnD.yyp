@@ -58,6 +58,7 @@
     {"id":{"name":"obj_street","path":"objects/obj_street/obj_street.yy",},"order":3,},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},"order":1,},
     {"id":{"name":"spr_civilian_1","path":"sprites/spr_civilian_1/spr_civilian_1.yy",},"order":0,},
+    {"id":{"name":"spr_player_shoot","path":"sprites/spr_player_shoot/spr_player_shoot.yy",},"order":6,},
     {"id":{"name":"spr_fire_particle","path":"sprites/spr_fire_particle/spr_fire_particle.yy",},"order":8,},
     {"id":{"name":"obj_player_defeated","path":"objects/obj_player_defeated/obj_player_defeated.yy",},"order":9,},
     {"id":{"name":"snd_player_defeat","path":"sounds/snd_player_defeat/snd_player_defeat.yy",},"order":3,},
