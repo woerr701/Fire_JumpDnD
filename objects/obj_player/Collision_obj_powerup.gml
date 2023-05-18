@@ -34,8 +34,8 @@ if(powerup_type == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 68C22E10
 	/// @DnDParent : 6C17EBCC
-	/// @DnDArgument : "steps" "8 * 60"
-	alarm_set(0, 8 * 60);
+	/// @DnDArgument : "steps" "10 * 60"
+	alarm_set(0, 10 * 60);
 }
 
 /// @DnDAction : YoYo Games.Common.Else

@@ -24,10 +24,3 @@ alarm_set(0, 5 * 60);
 /// @DnDHash : 580AFC27
 /// @DnDArgument : "speed" "0"
 image_speed = 0;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 5C6C57C2
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "image_index"
-image_index = 1;
