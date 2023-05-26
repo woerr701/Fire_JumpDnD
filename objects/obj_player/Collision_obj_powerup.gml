@@ -5,9 +5,9 @@
 	/// @DnDVersion : 1
 	/// @DnDHash : 1F7BDF10
 	/// @DnDParent : 4107B890
-	/// @DnDArgument : "var" "powerup_type"
+	/// @DnDArgument : "var" "powerup"
 	/// @DnDArgument : "value" "image_index"
-	var powerup_type = image_index;
+	var powerup = image_index;
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
@@ -19,8 +19,8 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6C17EBCC
-/// @DnDArgument : "var" "powerup_type"
-if(powerup_type == 0)
+/// @DnDArgument : "var" "powerup"
+if(powerup == 0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
