@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snd_button",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -14,11 +17,7 @@
   "soundFile": "snd_button.wav",
   "duration": 2.192312,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Fire JumpDnD",
+    "path": "Fire JumpDnD.yyp",
   },
-  "resourceVersion": "1.0",
-  "name": "snd_button",
-  "tags": [],
-  "resourceType": "GMSound",
 }

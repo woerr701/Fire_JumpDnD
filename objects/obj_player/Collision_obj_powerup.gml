@@ -1,13 +1,15 @@
 /// @DnDAction : YoYo Games.Common.Apply_To
 /// @DnDVersion : 1
 /// @DnDHash : 4107B890
+/// @DnDBreak : 1
+
 	/// @DnDAction : YoYo Games.Common.Temp_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 1F7BDF10
 	/// @DnDParent : 4107B890
 	/// @DnDArgument : "var" "powerup"
-	/// @DnDArgument : "value" "image_index"
-	var powerup = image_index;
+	/// @DnDArgument : "value" "other.image_index"
+	var powerup = other.image_index;
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
