@@ -23,6 +23,6 @@ draw_set_valign(fa_middle);
 /// @DnDHash : 1641ED6E
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""Best Rescue: ""
+/// @DnDArgument : "caption" ""Best Kill Streak: ""
 /// @DnDArgument : "var" "global.highscore_rescue"
-draw_text(x + 0, y + 0, string("Best Rescue: ") + string(global.highscore_rescue));
+draw_text(x + 0, y + 0, string("Best Kill Streak: ") + string(global.highscore_rescue));

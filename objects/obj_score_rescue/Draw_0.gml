@@ -23,6 +23,6 @@ draw_set_valign(fa_middle);
 /// @DnDHash : 1641ED6E
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""Rescued: ""
+/// @DnDArgument : "caption" ""Killed: ""
 /// @DnDArgument : "var" "global.score_rescue"
-draw_text(x + 0, y + 0, string("Rescued: ") + string(global.score_rescue));
+draw_text(x + 0, y + 0, string("Killed: ") + string(global.score_rescue));
